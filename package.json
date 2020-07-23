@@ -1,0 +1,25 @@
+{
+  "name": "bk-node-tcp",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./server.js",
+    "test": "npm test",
+    "dev": "nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/borisKarastanev/node-tcp-server.git"
+  },
+  "author": "b.karastanev@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/borisKarastanev/node-tcp-server/issues"
+  },
+  "homepage": "https://github.com/borisKarastanev/node-tcp-server#readme",
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "nodemon": "^2.0.4"
+  }
+}
