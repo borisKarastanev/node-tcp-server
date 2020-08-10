@@ -7,4 +7,4 @@ const server = net.createServer(connection => {
 	connection.on('end', () => console.log('Client Left'));
 });
 
-server.listen(9000);
+server.listen(9001);
